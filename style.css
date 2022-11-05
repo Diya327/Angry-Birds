@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 10vh;
+  display: flex;
+  background-color: lightblue;
+  z-index: 1;
+}
+
+#left {
+  margin-left: 20px;
+  font-size: 35px;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+#left h1 {
+  margin-left: 25px;
+  transition: 0.3s;
+}
+
+#left h1:hover {
+  transform: scale(1.3);
+}
+
+#left:hover {
+  /* font-size: 45px; */
+  cursor: pointer;
+}
+
+#right {
+  height: 100%;
+  width: 60%;
+  z-index: 10;
+}
+
+#right ul {
+  font-size: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+}
+
+#right ul a {
+  text-decoration: none;
+  color: black;
+}
+
+#right ul a:hover {
+  color: white;
+}
+
+#right ul li:hover {
+  border: 5px solid black;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.part-one {
+  max-width: 100%;
+  height: 120vh;
+  background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.angry {
+  background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2019/01/24121914/DreamBlast_dudes_v3.png);
+  padding-top: 100px;
+  padding-right: 120px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 35%;
+  height: 47%;
+  position: relative;
+  top: -140px;
+}
+
+.angry > img {
+  width: 600px;
+  height: 500px;
+}
+
+.dream {
+  float: right;
+  padding-top: 120px;
+  padding-right: 100px;
+}
+
+.dream > img {
+  width: 264px;
+  height: 175px;
+}
+
+.download {
+  background-color: #ffe400;
+  border: none;
+  color: darkgrey;
+  font-weight: 700;
+  padding: 16px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.download:hover {
+  background-color: #999900;
+}
+
+.part-two {
+  background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/03135724/AB2_Clansbanners_1920x750_BG.jpg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.part-one > img {
+  width: 596;
+  height: 612;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.part-three {
+  background: url(https://footballfoodandmotherhood.com/wp-content/uploads/2018/01/Angry-Birds-2-Key-Art-NFL.jpg);
+  max-width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer-icon {
+  border: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 40px;
+}
+
+.footer-logo {
+  cursor: pointer;
+}
+
+.footer-logo:hover {
+  transform: scale(1.2);
+}
+
+.footer > p {
+  padding: 15px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  font-size: 20px;
+}
+
+/* font-awesome icons start */
+.icon {
+  border: none;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.facebook-icon {
+  background-color: #3b5998;
+  color: white;
+  margin: 10px 4px;
+}
+
+.twitter-icon {
+  background-color: #00aced;
+  color: white;
+  margin: 10px 2px;
+}
+
+.youtube-icon {
+  background-color: #bb0000;
+  color: white;
+  margin: 10px 2px;
+}
+
+.insta-icon {
+  background-color: #517fa4;
+  color: white;
+  margin: 10px 2px;
+}
+
+.facebook-icon:hover {
+  background-color: white;
+  color: #3b5998;
+  border: 2px solid #3b5998;
+  margin: 5px 2px;
+}
+
+.twitter-icon:hover {
+  background-color: white;
+  color: #00aced;
+  border: 2px solid #00aced;
+  margin: 5px 0px;
+}
+
+.youtube-icon:hover {
+  background-color: white;
+  color: #bb0000;
+  border: 2px solid #bb0000;
+  margin: 5px 0px;
+}
+
+.insta-icon:hover {
+  background-color: white;
+  color: #517fa4;
+  border: 2px solid #517fa4;
+  margin: 5px 0px;
+}
+
+/* font-awesome icons end */
+
+/* css for about page */
+.name {
+  float: left;
+  padding: 14px 16px;
+
+  font-family: "Luckiest Guy", cursive;
+
+  font-size: 28px;
+  color: black;
+  font-weight: 1000;
+  padding-left: 50px;
+  cursor: crosshair;
+}
+
+.angry {
+  float: right;
+  padding-top: 100px;
+  padding-right: 120px;
+}
+
+.angry > img {
+  width: 600px;
+  height: 500px;
+}
+body {
+  margin: 0px;
+}
+
+.part-one {
+  max-width: 100%;
+  height: 120vh;
+  background: url(https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.video-container {
+  width: 100%;
+  height: 76vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -500px;
+}
+
+.info {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 22px;
+}
+
+.info img {
+  margin-top: 2%;
+}
